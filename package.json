@@ -1,0 +1,19 @@
+{
+  "name": "inception",
+  "version": "1.0.0",
+  "description": "Understanding React",
+  "scripts": {
+    "test": "test",
+    "start": "parcel index.html"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Siddhant Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.15.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
