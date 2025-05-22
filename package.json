@@ -4,7 +4,8 @@
   "description": "Understanding React",
   "scripts": {
     "test": "test",
-    "start": "parcel index.html"
+    "start": "parcel ./public/index.html",
+    "lint": "npx eslint"
   },
   "keywords": [
     "react"
@@ -15,5 +16,11 @@
     "parcel": "^2.15.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "eslint": "^9.27.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.1.0"
   }
 }
